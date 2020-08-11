@@ -1,8 +1,9 @@
 {
   "name": "ajax-limiter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Controls the maximum number of concurrent requests",
   "main": "index.js",
+  "types": "index.d.ts",
   "keywords": [
     "limit",
     "ajax",
