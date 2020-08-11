@@ -8,8 +8,19 @@
     "ajax",
     "request"
   ],
-  "author": "qinxuyang",
-  "license": "ISC",
+  "author": {
+    "name": "秦旭洋",
+    "email": "1446445040@qq.com",
+    "url": "https://github.com/1446445040"
+  },
+  "bugs": {
+    "url": "https://github.com/1446445040/ajax-limiter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1446445040/ajax-limiter.git"
+  },
+  "license": "MIT",
   "scripts": {
     "test": "jest --coverage",
     "build": "rollup --config"
