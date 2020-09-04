@@ -18,22 +18,14 @@ export default [
   {
     input: resolve('src/limiter.js'),
     plugins: [
-      cleanup()
+      cleanup(),
+      terser()
     ],
-    output: [
-      {
-        file: resolve(`dist/limiter.js`),
-        format: 'cjs', // commonjs
-        sourcemap: true,
-        banner,
-      },
-      {
-        file: resolve(`dist/limiter.min.js`),
-        format: 'cjs', // commonjs
-        sourcemap: true,
-        banner,
-        plugins: [terser()]
-      },
-    ]
+    output: {
+      file: resolve(`dist/limiter.min.js`),
+      format: 'cjs', // commonjs
+      sourcemap: true,
+      banner,
+    },
   }
 ];

@@ -1,4 +1,4 @@
-const limiter = require('./dist/limiter')
+const limiter = require('./dist/limiter.min')
 
 module.exports = limiter
 
